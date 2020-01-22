@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProductController {
 
-        @RequestMapping("/")
-    public String getIndex(){
-            return "index";
+        @RequestMapping("/product")
+    public String getproduct(){
+            return "product";
         }
 
 }
